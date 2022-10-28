@@ -1,0 +1,28 @@
+{
+  "name": "npmtest",
+  "version": "0.0.1",
+  "description": "hello package.json",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tae-yi/learn-express.git"
+  },
+  "author": "imtaeyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tae-yi/learn-express/issues"
+  },
+  "homepage": "https://github.com/tae-yi/learn-express#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
